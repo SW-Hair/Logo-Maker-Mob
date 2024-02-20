@@ -1,22 +1,31 @@
 body {
     font-family: sans-serif;
-    font-size: 12px; /* Smaller base font size */
+    font-size: 10px; /* Even smaller base font size for ripple effect */
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 20px;
+    padding: 15px; /* Reduced padding */
 }
 
-.image-generator-container { /* Added for scaling with base font */
-    font-size: 1em; /* Maintain size proportion of this container */
+.image-generator-container { 
+    font-size: 1em; 
+}
+
+input[type="text"] {
+    padding: 5px; /* Reduced padding within the input field */
+}
+
+button {
+    padding: 6px 12px; /* Reduced padding around button text */
+    font-size: 0.9em; /* Smaller button text */ 
 }
 
 #imageContainer {
-    margin-top: 20px;
-    width: 80%;  /* Smaller image */
+    margin-top: 15px;
+    width: 70%;  /* Further reduction for image */
 }
 
 img { 
     max-width: 100%; 
-    height: auto;
+    height: auto; 
 }
